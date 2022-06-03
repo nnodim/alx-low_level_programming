@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i;
+	char i;
 
 	for (i = 48; i < 58; i++)
 	{
@@ -17,6 +17,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
