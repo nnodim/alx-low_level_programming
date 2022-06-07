@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * add - prints add two numbers
  * @i: peint i
