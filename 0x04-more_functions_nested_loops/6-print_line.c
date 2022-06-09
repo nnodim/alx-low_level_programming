@@ -1,11 +1,11 @@
-nclude "main.h"
+#include "main.h"
 /**
  * print_line - prints line
  * @n: param
  */
 void print_line(int n)
 {
-	int n, i;
+	int i;
 
 	for (i = 0; i < n; i++)
 	{
