@@ -1,16 +1,6 @@
 #include "main.h"
-/**
- * _puts - pusts to stdout
- * @str: params
- */
-void _puts(char *str)
+int main(void)
 {
-	int i;
-
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
-
-	_putchar('\n');
+	_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+	return (0);
 }
