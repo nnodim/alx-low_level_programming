@@ -1,19 +1,10 @@
-nclude "main.h"
-
-
-
+#include "main.h"
 /**
+ * _isupper - checks uppercase
+ * @c: parameter
  *
- *  * _isupper - checks uppercase
- *
- *   * @c: parameter
- *
- *    * Return: 0 if sucessful
- *
- *     */
-
-
-
+ * Return: 0 if sucessful
+ */
 int _isupper(int c)
 {
 	if (c >= 65 && c < 91)
